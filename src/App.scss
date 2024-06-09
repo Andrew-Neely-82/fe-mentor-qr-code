@@ -1,0 +1,46 @@
+$bg: #d5e1ef;
+$darkText: #27374e;
+$lightText: #969ca6;
+
+body {
+  background: $bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  filter: drop-shadow(0 0 1rem #00000025);
+
+  img {
+    border-radius: 0.5rem;
+    width: 18rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+  }
+
+  h1,
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    color: $darkText;
+  }
+
+  p {
+    color: $lightText;
+  }
+}
