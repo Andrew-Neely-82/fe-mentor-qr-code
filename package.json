@@ -2,6 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://andrew-neely-82.github.io/fe-mentor-qr-code/",
   "type": "module",
   "scripts": {
     "dev": "vite",
